@@ -19,7 +19,7 @@ struct graph
 
 int visited[6]={0,0,0,0,0,0};
 
-stack<int> print;
+queue<int> print;
 
 
 int main()
@@ -28,7 +28,7 @@ int main()
     print.push(0);
     while(!print.empty())
     {
-        int data=print.top();
+        int data=print.front();
         cout<<data;
         print.pop();
         visited[data]=1;
