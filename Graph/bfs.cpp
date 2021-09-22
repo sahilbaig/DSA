@@ -1,19 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
-int adjacency_matrix[6][6]=
+int adjacency_matrix[5][5]=
 {
-    {0,1,1,0,0,0},
-    {1,0,0,1,1,0},
-    {1,0,0,0,1,0},
-    {0,1,0,0,1,1},
-    {0,0,1,1,0,1},
-    {0,0,0,1,1,0}
+    {0,1,0,1,0},
+    {0,0,1,0,0},
+    {0,0,0,0,0},
+    {0,0,0,0,0}
 };
 
 
 struct graph
 {
-    int vertex=6;
+    int vertex=4;
     int **adjacency_matrix;
 }G;
 
