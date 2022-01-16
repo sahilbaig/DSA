@@ -15,6 +15,8 @@ int main()
                 cin >>a;
                 list.push_back(a);
             }
+
+            
             testcase--;
         }
     return 0;
